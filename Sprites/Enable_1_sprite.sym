@@ -1,0 +1,5 @@
+.label main=$80e
+.namespace sprites {
+  .label positions=$d000
+  .label enable_bits=$d015
+}
