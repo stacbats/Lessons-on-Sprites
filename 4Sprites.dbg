@@ -1,0 +1,62 @@
+<C64debugger version="1.0">
+   <Sources values="INDEX,FILE">
+      0,KickAss.jar:/include/autoinclude.asm
+      1,C:\VSCODE_CODING\C64\SPRITES\Lessons on Sprites\4Sprites.asm
+   </Sources>
+
+   <Segment name="Default" dest="" values="START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      <Block name="Basic">
+         $0801,$0802,0,56,2,56,6
+         $0803,$0804,0,57,5,57,9
+         $0805,$0805,0,58,5,58,9
+         $0806,$0809,0,59,2,59,6
+         $080a,$080a,0,60,2,60,6
+         $080b,$080c,0,62,5,62,9
+      </Block>
+      <Block name="Basic End">
+         $080e,$080f,1,18,5,18,7
+         $0810,$0812,1,19,5,19,7
+         $0813,$0814,1,21,5,21,7
+         $0815,$0817,1,22,5,22,7
+         $0818,$0819,1,28,5,28,7
+         $081a,$081c,1,29,5,29,7
+         $081d,$081e,1,31,5,31,7
+         $081f,$0821,1,32,5,32,7
+         $0822,$0823,1,35,5,35,7
+         $0824,$0826,1,36,5,36,7
+         $0827,$0828,1,38,5,38,7
+         $0829,$082b,1,39,5,39,7
+         $082c,$082d,1,43,5,43,7
+         $082e,$0830,1,44,5,44,7
+         $0831,$0832,1,46,5,46,7
+         $0833,$0835,1,47,5,47,7
+         $0836,$0837,1,49,5,49,7
+         $0838,$083a,1,50,5,50,7
+         $083b,$083c,1,53,5,53,7
+         $083d,$083f,1,54,5,54,7
+         $0840,$0841,1,56,5,56,7
+         $0842,$0844,1,57,5,57,7
+         $0845,$0846,1,59,5,59,7
+         $0847,$0849,1,60,5,60,7
+         $084a,$084a,1,63,5,63,7
+      </Block>
+   </Segment>
+
+   <Labels values="SEGMENT,ADDRESS,NAME,START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      Default,$d000,positions,1,6,12,6,20
+      Default,$d010,position_highbit_x,1,7,12,7,29
+      Default,$d015,enable_bits,1,8,12,8,22
+      Default,$d01d,colours,1,9,12,9,18
+      Default,$d017,vertical_bit,1,10,12,10,23
+      Default,$d01d,horizontal_bit,1,11,12,11,25
+      Default,$080e,main,1,17,1,17,5
+      Default,$080b,upstartEnd,0,61,1,61,11
+   </Labels>
+
+   <Breakpoints values="SEGMENT,ADDRESS,ARGUMENT">
+   </Breakpoints>
+
+   <Watchpoints values="SEGMENT,ADDRESS1,ADDRESS2,ARGUMENT">
+   </Watchpoints>
+
+</C64debugger>

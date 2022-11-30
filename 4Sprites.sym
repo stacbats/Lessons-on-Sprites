@@ -1,0 +1,9 @@
+.label main=$80e
+.namespace sprites {
+  .label horizontal_bit=$d01d
+  .label vertical_bit=$d017
+  .label positions=$d000
+  .label position_highbit_x=$d010
+  .label enable_bits=$d015
+  .label colours=$d01d
+}
